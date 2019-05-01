@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'db4free.net:3306',
-	'username' => 'futbol',
-	'password' => '_futbol_',
-	'database' => 'futbol',
+	'hostname' => 'remotemysql.com:3306',
+	'username' => 'QlFc2yy9iL',
+	'password' => 'dET1V52vnf',
+	'database' => 'QlFc2yy9iL',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
