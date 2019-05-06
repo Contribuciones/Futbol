@@ -24,4 +24,10 @@ class PlayerStatisticsModel extends CI_Model {
 		parent::__construct();
 	}
 
+	public function insertar($id_player,$id_match,$goals,$yellow_cards,$red_cards,$assists,$suspension,$fouls_committed,$fouls_received){
+
+	}
+
+	public function modificar($id,$id_player,$id_match,$goals,$yellow_cards,$red_cards,$assists,$suspension,$fouls_committed,$fouls_received)
+
 }

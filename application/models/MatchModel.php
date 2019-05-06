@@ -19,4 +19,9 @@ class MatchModel extends CI_Model {
 		parent::__construct();
 	}
 
+	public function obtenerPartidos(){
+		$consulta = $this->db->query('select * from partido');
+		return $consulta->result();
+	}
+
 }
